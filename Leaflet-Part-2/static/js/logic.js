@@ -21,7 +21,7 @@ var quakeMaps = L.map("map", {
 });
 
 // Set variable for url for GeoJSON data
-var url1 = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json";
+var url1 = "https://raw.githubusercontent.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_plates.json";
 
 // Pull GeoJSON data
 var poly = L.geoJson().addTo(quakeMaps);
